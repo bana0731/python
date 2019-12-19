@@ -8,5 +8,5 @@ dollar = soup.select_one('#exchangeList > li.on > a.head.usd > div > span.value'
 
 print(dollar.text)
 
-#tmi = f'현재 달러 환율은 {dallar.text}입니다.'
-#print(tmi)
+ttmmii = f'현재 달러 환율은 {dollar.text}입니다.'
+print(ttmmii)
